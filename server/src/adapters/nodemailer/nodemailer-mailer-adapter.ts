@@ -1,4 +1,4 @@
-import { MailAdapter, SendMailData } from '../mail-adpater';
+import { MailAdapter, SendMailData } from '../mail-adapter';
 import nodemailer from 'nodemailer';
 
 const transport = nodemailer.createTransport({
